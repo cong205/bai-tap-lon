@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA_Compatibole" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liên hệ</title>
-    <link rel="stylesheet" href="contact.css">
-    <script src="https://kit.fontawesome.com/922d5b2c2f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/baitaplon/header.css">
-    <link rel="stylesheet" href="/baitaplon/footer.css">
-</head>
+    <title>HTMCA</title>
 
+    <script src="https://kit.fontawesome.com/922d5b2c2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/baitaplon/css/giohang.css">
+   <link rel="stylesheet" href="/baitaplon/css/header.css">
+   <link rel="stylesheet" href="/baitaplon/css/footer.css">
+   <script src="/baitaplon/js/giohang.js" defer></script>
+   <script src="/baitaplon/js/header.js" defer></script>
+</head>
 <body>
     <header class="header">
-
         <div class="top">
             <div class="title">
                 <image src="/baitaplon/image/logo.png" class="title__image"></image>
             </div>
             <div class="find">
                 <div class="find__input">
-                    <input type="text" name="input" placeholder="Ban can tim: ">
+                    <input type="text" name="input" placeholder="Tìm kiếm: ">
                 </div>
                 <button class="find__icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -28,19 +29,19 @@
             </div>
             <div class="navbar1">
                 <div class="navbar1__item">
-                     <a href="/baitaplon/giohang/giohang.html" class="navbar1__item--link">
+                     <a href="/baitaplon/html/giohang.html" class="navbar1__item--link">
                         <i class="fa-solid fa-box-open"></i>
                         <p>Giỏ hàng</p>
                     </a>
                 </div>
                 <div class="navbar1__item">
-                    <a href="/baitaplon/sing_in.html" class="navbar1__item--link">
+                    <a href="/baitaplon/html/sing_in.html" class="navbar1__item--link" target="_blank">
                         <i class="fa-solid fa-user-plus"></i>
                         <p>Đăng ký</p>
                     </a>
                 </div>
                 <div class="navbar1__item">
-                    <a href="/baitaplon/sing_in.html" class="navbar1__item--link" target="_blank">
+                    <a href="/baitaplon/html/sing_in.html" class="navbar1__item--link" target="_blank">
                         <i class="fa-solid fa-user"></i>
                         <p>Đăng nhập</p>
                     </a>
@@ -91,52 +92,102 @@
          <nav class="navbar2">
             <ul class="navbar2__list">
                 <li class="navbar2__item"><a href="/baitaplon/index.html" class="navbar2__item--link">Trang chủ</a></li>
-                <li class="navbar2__item"><a href="/baitaplon/introduction/introducton.html" class="navbar2__item--link">Giới thiệu</a></li>
+                <li class="navbar2__item"><a href="/baitaplon/html/introducton.html" class="navbar2__item--link">Giới thiệu</a></li>
                 <li class="navbar2__item"><a href="/baitaplon/index.html" class="navbar2__item--link">Tin tức</a></li>
-                <li class="navbar2__item"><a href="" class="navbar2__item--link">Chương trình khuyến mãi</a></li>
-                <li class="navbar2__item"><a href="/baitaplon/contact/contact.html" class="navbar2__item--link">Hỗ trợ</a></li>
-                <li class="navbar2__item"><a href="/baitaplon/contact/contact.html" class="navbar2__item--link">Liên hệ</a></li>
+                <li class="navbar2__item"><a href="/baitaplon/html/contact.html" class="navbar2__item--link">Hỗ trợ</a></li>
+                <li class="navbar2__item"><a href="/baitaplon/html/contact.html" class="navbar2__item--link">Liên hệ</a></li>
             </ul>
          </nav>
-         <script src="/baitaplon/header.js"></script>
-    </header>  
-    <main>    
-        <h3><a href="/baitaplon/index.html">Trang chủ</a>   /   <span>Hỗ trợ - Liên hệ</span></h3>
+    </header>
     
-        <section>
-            <div class="contact">
-                <h1>HTMCA</h1>
-                <div class="contact__infor">
-                    <div class="contact__infor--address">
-                        <span>Địa chỉ:</span>
-                        <p>3 Cầu Giấy TP Hà Nội</p>
+
+    <section>
+        <div class="home__page"><a href="/baitaplon/index.html">Trang chủ</a> / <span>Giỏ hàng</span></div>
+        <div class="cart">
+                <div class="cart__content">
+                    <h2>Giỏ hàng</h2>
+                    <div class="cart__items">
+                        <div class="cart__delete">
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <div class="cart__img">
+                            <img src="/baitaplon/image/macdelein.jpg" alt="Macdelein">
+                        </div>
+                        <div class="cart__infor">
+                            <div class="cart__name">Macdelein giới hạn</div>
+                            <div class="cart__cost"><span class="cart__money">9.999.999</span><span>đ</span></div>
+                        </div>
+                        <div class="cart__count">
+                            <div class="align">
+                                <button class="cart__count--minus">-</button>
+                                <input type="text" value="1" class="quanlity">
+                                <button class="cart__count--plus">+</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact__infor--tel">
-                        <span>Só điện thoại:</span>
-                        <p>19001786</p>
-                    </div>
-                    <div class="contact__infor--email">
-                        <span>Email:</span>
-                        <p>abc123@gmail.com</p>
+                    <div class="cart__items">
+                        <div class="cart__delete">
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <div class="cart__img">
+                            <img src="/baitaplon/image/gatosocola.jpg" alt="Macdelein">
+                        </div>
+                        <div class="cart__infor">
+                            <div class="cart__name">Gato socola</div>
+                            <div class="cart__cost"><span class="cart__money">190.000</span><span>đ</span></div>
+                        </div>
+                        <div class="cart__count">
+                            <div class="align">
+                                <button class="cart__count--minus">-</button>
+                                <input type="text" value="1" class="quanlity">
+                                <button class="cart__count--plus">+</button>
+                            </div>
+                        </div>
                     </div>
                     
+                    <div class="cart__note">
+                        <label for="note">Ghi chú đơn hàng</label><br>
+                        <input type="text" name="note">
+                    </div>
+
                 </div>
-                <div class="submit">
-                    <h2>Liên hệ với chúng tôi</h2>
-                    <form action="" method="post">
-                        <input type="text" name="Hoten" id="Hoten" placeholder="Họ tên">
-                        <input type="tel" name="Tel" id="Tel" placeholder="Số điện thoại">
-                        <input type="email" name="Email" id="Email" placeholder="Email">
-                        <textarea name="Content" id="Content" placeholder="Nội dung" style="height: 100px;"></textarea>
-                        <button type="submit">Gửi</button>
-                    </form>
+                <div class="cart__price">
+                    <h3>Hẹn giờ nhận hàng</h3>
+                    <div class="cart__select">
+                        <div class="cart__date">
+                            <label for="date">Ngày nhận hàng</label><br>
+                            <input type="date" name="date">
+                        </div>
+                        <div class="cart__time">
+                            <label for="time">Thời gian nhận hàng</label><br>
+                            <select name="time">
+                                <option value="0">Chọn thời gian</option>
+                                <option value="1">08h00-12h00</option>
+                                <option value="2">14h00-17h00</option>
+                                <option value="3">17h00-20h00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="cart__bill">
+                        <input type="checkbox"> 
+                        <span>Xuất hóa đơn công ty</span>
+                    </div>
+                    <div class="cart__sumary">
+                        <div class="cart__header">Tổng cộng</div>
+                        <div class="cart__total">
+                            <div class="cart__cost--total"><span id="total__money">8.999.999</span><span>đ</span></div>
+                            <div class="VAT">(Đã bao gồm thuế VAT nếu có)</div>
+                        </div>
+                    </div>
+                    <div class="cart__deal">                      
+                        <span>Mã giảm giá</span>
+                        <span>Chọn mã giảm giá<span>
+                    </div>
+                    <button type="submit" class="cart__pay">Thanh toán</button>
+
                 </div>
-            </div>
-            <div class="map">
-                <img src="map.png" alt="map">
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <footer>
         <div class="footer__title">
@@ -185,6 +236,7 @@
             </div>
         </div>
     </footer>
-    
+
+   
 </body>
 </html>

@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA_Compatibole" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTMCA</title>
-
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="/baitaplon/css/introduction.css">
     <script src="https://kit.fontawesome.com/922d5b2c2f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="giohang.css">
-   <link rel="stylesheet" href="/baitaplon/header.css">
-   <link rel="stylesheet" href="/baitaplon/footer.css">
+    <link rel="stylesheet" href="/baitaplon/css/header.css">
+    <link rel="stylesheet" href="/baitaplon/css/footer.css">
+    <script src="/baitaplon/js/header.js" defer></script>
 </head>
+
 <body>
     <header class="header">
-
         <div class="top">
             <div class="title">
                 <image src="/baitaplon/image/logo.png" class="title__image"></image>
             </div>
             <div class="find">
                 <div class="find__input">
-                    <input type="text" name="input" placeholder="Ban can tim: ">
+                    <input type="text" name="input" placeholder="Tìm kiếm: ">
                 </div>
                 <button class="find__icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -28,19 +28,19 @@
             </div>
             <div class="navbar1">
                 <div class="navbar1__item">
-                     <a href="/baitaplon/giohang/giohang.html" class="navbar1__item--link">
+                     <a href="/baitaplon/html/giohang.html" class="navbar1__item--link">
                         <i class="fa-solid fa-box-open"></i>
                         <p>Giỏ hàng</p>
                     </a>
                 </div>
                 <div class="navbar1__item">
-                    <a href="/baitaplon/sing_in.html" class="navbar1__item--link">
+                    <a href="/baitaplon/html/sing_in.html" class="navbar1__item--link" target="_blank">
                         <i class="fa-solid fa-user-plus"></i>
                         <p>Đăng ký</p>
                     </a>
                 </div>
                 <div class="navbar1__item">
-                    <a href="/baitaplon/sing_in.html" class="navbar1__item--link" target="_blank">
+                    <a href="/baitaplon/html/sing_in.html" class="navbar1__item--link" target="_blank">
                         <i class="fa-solid fa-user"></i>
                         <p>Đăng nhập</p>
                     </a>
@@ -91,101 +91,56 @@
          <nav class="navbar2">
             <ul class="navbar2__list">
                 <li class="navbar2__item"><a href="/baitaplon/index.html" class="navbar2__item--link">Trang chủ</a></li>
-                <li class="navbar2__item"><a href="/baitaplon/introduction/introducton.html" class="navbar2__item--link">Giới thiệu</a></li>
+                <li class="navbar2__item"><a href="/baitaplon/html/introducton.html" class="navbar2__item--link">Giới thiệu</a></li>
                 <li class="navbar2__item"><a href="/baitaplon/index.html" class="navbar2__item--link">Tin tức</a></li>
-                <li class="navbar2__item"><a href="" class="navbar2__item--link">Chương trình khuyến mãi</a></li>
-                <li class="navbar2__item"><a href="/baitaplon/contact/contact.html" class="navbar2__item--link">Hỗ trợ</a></li>
-                <li class="navbar2__item"><a href="/baitaplon/contact/contact.html" class="navbar2__item--link">Liên hệ</a></li>
+                <li class="navbar2__item"><a href="/baitaplon/html/contact.html" class="navbar2__item--link">Hỗ trợ</a></li>
+                <li class="navbar2__item"><a href="/baitaplon/html/contact.html" class="navbar2__item--link">Liên hệ</a></li>
             </ul>
          </nav>
-         <script src="/baitaplon/header.js"></script>
     </header>
-
+    <h3><a href="/baitaplon/index.html">Trang chủ</a>   /   <span>Giới thiệu</span></h3>
+ 
     <section>
-        <div class="home__page"><a href="/baitaplon/index.html">Trang chủ</a> / <span>Giỏ hàng</span></div>
-        <div class="cart">
-                <div class="cart__content">
-                    <h2>Giỏ hàng</h2>
-                    <div class="cart__items">
-                        <div class="cart__delete">
-                            <i class="fa-solid fa-x"></i>
-                        </div>
-                        <div class="cart__img">
-                            <img src="/baitaplon/image/macdelein.jpg" alt="Macdelein">
-                        </div>
-                        <div class="cart__infor">
-                            <div class="cart__name">Macdelein giới hạn</div>
-                            <div class="cart__cost"><span class="cart__money">9.999.999</span><span>đ</span></div>
-                        </div>
-                        <div class="cart__count">
-                            <div class="align">
-                                <button class="cart__count--minus">-</button>
-                                <input type="text" value="1" id="quanlity">
-                                <button class="cart__count--plus">+</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cart__items">
-                        <div class="cart__delete">
-                            <i class="fa-solid fa-x"></i>
-                        </div>
-                        <div class="cart__img">
-                            <img src="/baitaplon/image/macdelein.jpg" alt="Macdelein">
-                        </div>
-                        <div class="cart__infor">
-                            <div class="cart__name">Macdelein giới hạn</div>
-                            <div class="cart__cost"><span class="cart__money">9.999.999</span><span>đ</span></div>
-                        </div>
-                        <div class="cart__count">
-                            <div class="align">
-                                <button class="cart__count--minus">-</button>
-                                <input type="text" value="1" id="quanlity">
-                                <button class="cart__count--plus">+</button>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="cart__note">
-                        <label for="note">Ghi chú đơn hàng</label><br>
-                        <input type="text" name="note">
-                    </div>
-
-                </div>
-                <div class="cart__price">
-                    <h3>Hẹn giờ nhận hàng</h3>
-                    <div class="cart__select">
-                        <div class="cart__date">
-                            <label for="date">Ngày nhận hàng</label><br>
-                            <input type="date" name="date">
-                        </div>
-                        <div class="cart__time">
-                            <label for="time">Thời gian nhận hàng</label><br>
-                            <select name="time">
-                                <option value="0">Chọn thời gian</option>
-                                <option value="1">08h00-12h00</option>
-                                <option value="2">14h00-17h00</option>
-                                <option value="3">17h00-20h00</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="cart__bill">
-                        <input type="checkbox"> 
-                        <span>Xuất hóa đơn công ty</span>
-                    </div>
-                    <div class="cart__sumary">
-                        <div class="cart__header">Tổng cộng</div>
-                        <div class="cart__total">
-                            <div class="cart__cost--total">9.999.999<span>đ</span></div>
-                            <div class="VAT">(Đã bao gồm thuế VAT nếu có)</div>
-                        </div>
-                    </div>
-                    <div class="cart__deal">                      
-                        <span>Mã giảm giá</span>
-                        <span>Chọn mã giảm giá<span>
-                    </div>
-                    <button type="submit" class="cart__pay">Thanh toán</button>
-
-                </div>
+        <h1>Giới thiệu</h1>
+        <div class="content">
+            <h3>1. Giới thiệu chung</h3>
+            <p>HTMCA là một thương hiệu siêu thị mini uy tín và chất lượng, cam kết mang đến cho khách hàng những trải nghiệm mua sắm tiện lợi,
+                 hiện đại và phong phú. Với sứ mệnh “Phục vụ gia đình Việt,” HTMCA không ngừng
+                  nỗ lực để cung cấp những sản phẩm thiết yếu và dịch vụ tốt nhất, đáp ứng mọi nhu cầu sinh hoạt hàng ngày của khách hàng.
+            </p>
+        </div>
+        <div class="content">
+            <h3>2. Tầm nhìn và Sứ mệnh:</h3>
+            <p><span>Tầm nhìn: </span>HTMCA phấn đấu trở thành hệ thống siêu thị mini hàng đầu tại 
+                Việt Nam, nơi mang đến sự tiện lợi, tin cậy và giá trị vượt trội cho khách hàng. 
+                Chúng tôi hướng đến việc xây dựng một cộng đồng tiêu dùng thông minh, nơi mọi gia đình đều có thể tiếp cận các sản phẩm chất lượng với giá cả hợp lý.
+            </p>
+            <p><span>Sứ mệnh: </span>HTMCA cam kết cung cấp những sản phẩm và 
+                dịch vụ tốt nhất, phục vụ nhu cầu thiết yếu hàng ngày của mọi gia đình.
+                 Chúng tôi chú trọng đến việc tạo ra một môi trường mua sắm an toàn, thân thiện và hiện đại,
+                 đồng thời góp phần vào sự phát triển bền vững của cộng đồng.
+            </p>
+        </div>
+        <div class="content">
+            <h3>3. Sản phẩm đa dạng:</h3>
+            <p>HTMCA tự hào với danh mục sản phẩm phong phú, từ thực phẩm tươi sống, hàng tiêu dùng, đồ gia dụng đến các sản phẩm chăm sóc cá nhân và gia đình.
+                 Một số nhóm sản phẩm chính bao gồm:
+            </p>
+            <ul>
+                <li>Thực phẩm tươi sống: Rau củ quả, thịt, cá, hải sản tươi ngon được tuyển chọn kỹ lưỡng.</li>
+                <li>Thực phẩm khô và đóng gói: Gạo, mì, bún, thực phẩm đóng hộp, đồ ăn nhanh</li>
+                <li>Đồ uống: Nước giải khát, sữa, các loại nước trái cây, nước ngọt. </li>
+                <li>Sản phẩm chăm sóc cá nhân: Sữa tắm, dầu gội, kem đánh răng, sản phẩm vệ sinh cá nhân.</li>
+                <li>Sản phẩm chăm sóc gia đình: Nước giặt, nước xả vải, nước rửa chén, nước lau sàn.</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h3>6. Cam kết cộng đồng:</h3>
+            <p>Với những nỗ lực không ngừng nghỉ trong việc nâng cao chất lượng sản phẩm và 
+                dịch vụ, HTMCA đã và đang khẳng định vị thế của mình trên thị trường siêu thị mini tại Việt Nam. Hãy đến với HTMCA
+                 để trải nghiệm một không gian mua sắm tiện lợi, hiện đại và chất lượng,
+                 nơi bạn và gia đình sẽ luôn được chăm sóc và phục vụ tốt nhất.
+            </p>
         </div>
     </section>
 
@@ -236,7 +191,6 @@
             </div>
         </div>
     </footer>
-
-    <script src="giohang.js"></script>
+    
 </body>
 </html>
