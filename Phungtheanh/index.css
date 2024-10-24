@@ -106,6 +106,7 @@
     gap: 15px;
     margin-right: 100px;
     margin-top: 50px;
+    height: 0;
   }
   .row-cart-grid .row-item {
     border: 1px solid rgb(0, 0, 0);
@@ -129,6 +130,7 @@
     }
   }
   .left{
+    overflow-y: auto;
     width: 25%;
     background-color: #ffffff;
     margin-right: 10px;
@@ -201,4 +203,54 @@
 }
 .btn-confirm{
   text-align: right;
+}
+.hidden {
+  display: none;
+  border: 0;
+}
+.price-range {
+  margin-bottom: 20px;
+}
+
+.price-range h4 {
+  margin-bottom: 10px;
+}
+
+.shipping-options {
+  margin-bottom: 20px;
+}
+
+.shipping-options h4 {
+  margin-bottom: 10px;
+}
+
+.shipping-options label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.brand-options {
+  margin-bottom: 20px;
+}
+
+.brand-options h4 {
+  margin-bottom: 10px;
+}
+
+.brand-options label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.promotion-options {
+  margin-bottom: 20px;
+}
+
+.promotion-options h4 {
+  margin-bottom: 10px;
+}
+
+.promotion-options label {
+  display: block;
+  margin-bottom: 5px;
 }
